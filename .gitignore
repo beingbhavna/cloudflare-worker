@@ -1,0 +1,19 @@
+# Wrangler
+.wrangler/
+.dev.vars
+
+# Dependencies
+node_modules/
+
+# Environment & Secrets (NEVER commit these)
+.env
+.env.*
+*.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
