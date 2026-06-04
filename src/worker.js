@@ -147,7 +147,8 @@ async function sendEmail({ to, subject, html, env }) {
       'Content-Type' : 'application/json',
     },
     body: JSON.stringify({
-      from   : 'VSS Enterprises <onboarding@resend.dev>',
+      from    : 'VSS Enterprises <onboarding@resend.dev>',
+      reply_to: 'vss.electricsenterprises@gmail.com',
       to     : Array.isArray(to) ? to : [to],
       subject,
       html,
