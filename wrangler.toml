@@ -14,7 +14,7 @@ database_id   = "6aaa7742-f115-4738-a0a2-0f1c4a52ae46"
 # Non-secret vars go here. Secrets use: wrangler secret put SECRET_NAME
 [vars]
 ADMIN_EMAIL   = "vss.electricsenterprises@gmail.com"
-FRONTEND_URL  = "http://localhost:4200"
+FRONTEND_URL  = "https://vss-customer-app.pages.dev"
 
 # ─── Secrets (set via CLI, never put in this file) ───────────────────────────
 
